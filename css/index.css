@@ -1,33 +1,98 @@
-nav{
-    position:center;
+
+body{
+    max-width: 1024px;
+    margin: 0 auto;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
+.nav_el{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction:column;
+    align-content:stretch;
+    align-items: stretch;
+    width:100px;
+    font-family: 'Lobster', cursive;
+   }
+.l_sweet{
+    color: #7d4627;
     padding: 0;
-    overflow: hidden;
-    background-color: #fff;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #7d4627;
-    color:white;
-
-}
+    margin: -5px ;
+    text-align:left;
+    font-size: 30px;
+  }
+.l_swad{
+    color: #7d4627;
+    padding: 0;
+    margin: -5px ;
+    margin-left:2px;
+    text-align:left;
+    font-size: 22px;
+  }
 .shopimg {
     width:50px;
     height:50px;
 }
+section p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+h1{
+     color: #7d4627;
+     text-align: center;
+     font-family: 'Droid Serif', serif;
+}
+main{
+     display: flex;
+     flex-direction:column;
+     }
+.main_top{
+     display: flex;
+     flex-direction:row;
+     align-items:stretch;
+}
+.main_right{
+   
+    max-width:512px;
+    max-height:341px;
+    width: 100%;
+    height:auto;
+    background-color:#a8b6bf;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 40px;
+}
+.main_menu{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.main_menu_img{
+    width: 450px;
+    height: auto;
+    margin: 10px;
+}
+footer{
+    display: flex;
+    justify-content:center;
+    background-color: #c9d8c5;
+}
+div{
+    position: relative;
+}
+.menu_text{
+    font-family: 'Roboto', sans-serif;
+    font-size:36px;
+    color: white;
+    background-color: transparent;
+    position:absolute;
+    top: 150px;
+    left: 150px;
+}
+
