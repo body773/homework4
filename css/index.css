@@ -2,6 +2,10 @@
 body{
     max-width: 1024px;
     margin: 0 auto;
+ /*   display:flex;
+    flex-direction:column;
+    justify-content:center;*/
+    
 }
 .nav{
     width: 100%;
@@ -9,19 +13,19 @@ body{
     top: 0px;
     background-color: white;
     max-width: 1024px;
-}
-.nav_elem{
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: flex-end;
     box-shadow: 0px 1px 0px #7d4627;
 }
+
 #logo{
     display: flex;
     flex-direction:column;
     align-content:stretch;
     align-items: stretch;
-    width:100px;
+    width:140px;
+    margin-right: 10px;
    }
 .l_sweet{
     color: #7d4627;
@@ -34,17 +38,13 @@ body{
 .l_swad{
     color: #7d4627;
     padding: 0;
-    margin: -5px ;
-    margin-left:2px;
+    margin-left: 2px;
+     margin-right: 10px;
     text-align:left;
     font-size: 22px;
     font-family: 'Lobster', cursive;
   }
 
-.shopimg {
-    width:50px;
-    height:50px;
-}
  p{
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -77,15 +77,25 @@ main{
     text-shadow: -1px 0 #7d4627, 0 1px #7d4627, 1px 0 #7d4627, 0 -1px #7d4627;
 }
 .main_menu{
+     text-shadow: -1px 0 #7d4627, 0 1px #7d4627, 1px 0 #7d4627, 0 -1px #7d4627;
     display: flex;
-    flex-direction:row;
     flex-wrap:wrap;
     justify-content:center;
 }
 footer{
     display: flex;
     justify-content:center;
-    background-color: #edd9c0;
+    align-items:center;
+    background-color: #a8b6bf;
+    
+}
+footer h1{
+    color:white;
+}
+.foot_soc{
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
 .main_menu div {
     width: 450px;
@@ -99,7 +109,6 @@ footer{
     color: white;
     font-size: 36px;
     margin: 10px;
-    border-radius: 25px;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -110,24 +119,24 @@ footer{
     
 }
 #img_forhim{
-    background-image:url("../images/forhim1.jpg");
+    background-image:url("../img/forhim1.jpg");
     background-position: center center;
     background-size: cover;
     width: 450px;
 }
 
 #img_forher{
-    background-image:url("../images/forHer1.jpg");
+    background-image:url("../img/forHer1.jpg");
     background-position: center center;
     background-size: cover;
 }
 #img_blankets{
-    background-image:url("../images/blankets1.jpg");
+    background-image:url("../img/blanket.jpg");
     background-position: center center;
     background-size: cover;
 }
 #img_decore{
-    background-image:url("../images/toysdecor1.jpg");
+    background-image:url("../img/toysdecor1.jpg");
     background-position: center center;
     background-size: cover;
 }
@@ -148,18 +157,6 @@ div.img img{
 }
 
 
-@media only screen and (max-width: 700px){
-    div.img {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-     div.img {
-        width: 100%;
-    }
-}
 section li{
     list-style-type: none;
     overflow: hidden;
@@ -169,3 +166,61 @@ section li{
     text-decoration: none;
 }
 
+@media only screen and (max-width: 700px){
+    div.img {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+    
+    .main_top h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+     div.img {
+        width: 100%;
+    }
+    .main_top h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+footer{
+    display: flex;
+    flex-direction:column;
+
+}
+}
+.foot_sect{
+    display:flex;
+    flex-direction:column;
+}
+.foot_el{
+    min-width:200px;
+    display:flex;
+    flex-direction:column;
+    background-color:#edd9c0;
+    margin:0;
+}
+.foot_soc{
+     display:flex;
+}
+.socimg{
+  width:50px;  
+  height:50px;
+  margin:2px;
+}
+#top1{
+    height:50px;
+}
+#top2{
+    height:50px;
+}
+#top3{
+    height:50px;
+}
+#top4{
+    height:50px;
+}

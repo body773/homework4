@@ -1,0 +1,49 @@
+main {
+    display:flex;
+    flex-direction:column;
+
+    
+}
+.sect_article{
+    border-bottom: 1px solid #7d4627;
+    background-color: #edd9c0;
+}
+.sect_prod{
+    display:flex;
+    flex-wrap: wrap;
+}
+.proditem{
+    margin:10px;
+    
+}
+.prodimg {
+    width:300px;
+    height:300px;
+}
+.price{
+    color:#7d4627;
+}
+#img-b-2-1{
+    background-image:url("../img/prods/boysp2-1.jpg");
+    background-position: center center;
+    background-size: auto;
+    background-repeat:no-repeat;
+}
+#img-b-1-1{
+    background-image:url("../img/prods/boysp1-1.jpg");
+    background-position: center center;
+    background-size: auto;
+    background-repeat:no-repeat;
+}
+#img-b-3-1{
+    background-image:url("../img/prods/boysp3-1.jpg");
+    background-position: center center;
+    background-size: auto;
+    background-repeat:no-repeat;
+}
+#img-b-4-1{
+    background-image:url("../img/prods/boysp4-1.jpg");
+    background-position: center center;
+    background-size: auto;
+    background-repeat:no-repeat;
+}
